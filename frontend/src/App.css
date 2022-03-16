@@ -1,0 +1,27 @@
+@font-face {
+  font-family: font;
+  src: url(./assets/fonts/UbuntuCondensed-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px !important;
+  font-weight: bold;
+  color: #0e3b5c;
+  font-family: font, sans-serif !important;
+}
+body {
+  background-color: #e9f6fc;
+}
+
+.successful {
+  font-size: 30px !important;
+}
+.successul-value {
+  color: #55bfe6;
+}
+.error {
+  font-size: 40px !important;
+  margin-bottom: 60px;
+}

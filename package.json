@@ -1,0 +1,33 @@
+{
+  "name": "rakez",
+  "version": "1.0.0",
+  "description": "Side project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrDuxx/rakez.git"
+  },
+  "keywords": [
+    "react",
+    "nodejs",
+    "express",
+    "antdesign"
+  ],
+  "author": "Gal1le0",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrDuxx/rakez/issues"
+  },
+  "homepage": "https://github.com/DrDuxx/rakez#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.4",
+    "morgan": "^1.10.0",
+    "react-redux": "^7.2.6"
+  }
+}
