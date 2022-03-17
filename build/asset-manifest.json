@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "static/css/main.ea313b6e.css",
-    "main.js": "static/js/main.96c40058.js",
-    "static/media/UbuntuCondensed-Regular.ttf": "static/media/UbuntuCondensed-Regular.e86cedebf88316c748cf.ttf",
-    "static/media/RAKEZ Logo - Arabic - Standard (Web) Large.png": "static/media/RAKEZ Logo - Arabic - Standard (Web) Large.0c49e0b4631ae787bdfc.png",
-    "index.html": "index.html",
-    "main.ea313b6e.css.map": "static/css/main.ea313b6e.css.map",
-    "main.96c40058.js.map": "static/js/main.96c40058.js.map"
+    "main.css": "/static/css/main.ea313b6e.css",
+    "main.js": "/static/js/main.dccd5cef.js",
+    "static/media/UbuntuCondensed-Regular.ttf": "/static/media/UbuntuCondensed-Regular.e86cedebf88316c748cf.ttf",
+    "static/media/RAKEZ Logo - Arabic - Standard (Web) Large.png": "/static/media/RAKEZ Logo - Arabic - Standard (Web) Large.0c49e0b4631ae787bdfc.png",
+    "index.html": "/index.html",
+    "main.ea313b6e.css.map": "/static/css/main.ea313b6e.css.map",
+    "main.dccd5cef.js.map": "/static/js/main.dccd5cef.js.map"
   },
-  "entrypoints": ["static/css/main.ea313b6e.css", "static/js/main.96c40058.js"]
+  "entrypoints": [
+    "static/css/main.ea313b6e.css",
+    "static/js/main.dccd5cef.js"
+  ]
 }
