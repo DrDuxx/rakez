@@ -48,7 +48,7 @@ app.post('/api/employees', async (req, res) => {
 
 // MAIN WEBSITE
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'dist', 'index.html'))
+  res.sendFile(path.join(__dirname, 'build', 'index.html'))
 })
 
 app.listen(PORT, () => {
