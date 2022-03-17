@@ -54,9 +54,7 @@ function Home({ createEmployee, loading, message, clear }) {
       </div>
       {!result.isVisible ? (
         <>
-          {message[0] && (
-            <Alert severity="error">This is an error message!</Alert>
-          )}
+          {message[0] && <Alert severity="error">{message[0]}</Alert>}
           <div
             style={{
               margin: '10px 0',
