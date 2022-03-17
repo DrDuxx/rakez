@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE_URL = 'http://rakez.herokuapp.com/'
+const BASE_URL = 'https://rakez.herokuapp.com'
 
 export const createEmployee = async (data) => {
   return await axios
