@@ -10,6 +10,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 app.use(morgan('short'))
 app.use(cors())
+app.use(express.static(path.join(__dirname, 'build')))
 
 mongoose
   .connect(process.env.MONGO_STRING, {
