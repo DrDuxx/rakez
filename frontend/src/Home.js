@@ -68,7 +68,7 @@ function Home({ createEmployee, loading, message, clear }) {
             <div style={{ width: '100%' }}>
               <InputField
                 fullWidth
-                label="full name"
+                label="Full Name"
                 variant="outlined"
                 onChange={(e) => {
                   setValues({ ...values, name: e.target.value })
@@ -90,7 +90,7 @@ function Home({ createEmployee, loading, message, clear }) {
             <div style={{ width: '100%' }}>
               <InputField
                 fullWidth
-                label="department"
+                label="Department"
                 variant="outlined"
                 onChange={(e) => {
                   setValues({ ...values, department: e.target.value })
@@ -121,7 +121,7 @@ function Home({ createEmployee, loading, message, clear }) {
               createEmployee(values, setResult)
             }}
           >
-            {loading ? <CircularProgress size={16} /> : 'submit'}
+            {loading ? <CircularProgress size={16} /> : 'Submit'}
           </div>
         </>
       ) : (
