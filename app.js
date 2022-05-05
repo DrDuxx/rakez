@@ -11,6 +11,7 @@ app.use(express.json())
 app.use(morgan('short'))
 app.use(cors())
 app.use(express.static(path.join(__dirname, 'build')))
+app.use(express.static(path.join(__dirname, 'images')))
 
 mongoose
   .connect(process.env.MONGO_STRING, {
@@ -48,8 +49,27 @@ app.post('/api/employees', async (req, res) => {
 })
 
 // MAIN WEBSITE
+app.get('/image', (req, res) => {
+  res.sendFile(path.join(__dirname), 'images', '1.png')
+})
+
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'))
+  // res.sendFile(path.join(__dirname, 'build', 'index.html'))
+  return res.status(200).json({
+    name: 'FawzeBouLawze #1',
+    description: 'Remember to replace this description',
+    image: 'https://rakez.herokuapp.com/images',
+    attributes: [
+      {
+        trait_type: 'Background',
+        value: 'bg3',
+      },
+    ],
+    dna: 'cd15ae34717ef3b4dd9bd99eec298718a314808f',
+    edition: 1,
+    date: 1651735380216,
+    compiler: 'HashLips Art Engine - codeSTACKr Modified',
+  })
 })
 
 app.listen(PORT, () => {
